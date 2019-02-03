@@ -54,9 +54,6 @@ public class MainActivity extends Activity {
         mScoreTextView = (TextView) findViewById(R.id.score);
         mProgressBar = (ProgressBar) findViewById(R.id.progress_bar);
 
-        mQuestion = mQuestionBank[mIndex].getQuestionID();
-        mQuestionTextView.setText(mQuestion);
-
 
         mTrueButton.setOnClickListener(new View.OnClickListener() {
             @Override
